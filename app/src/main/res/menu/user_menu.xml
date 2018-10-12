@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ViewBills"
+        android:orderInCategory="20"
+        app:showAsAction="never"
+        android:title="View Bills"></item>
+    <item android:id="@+id/ViewPaymentStatus"
+        android:orderInCategory="30"
+        app:showAsAction="never"
+        android:title="View Payment Status"></item>
+    <item android:id="@+id/EditProfile"
+        android:orderInCategory="30"
+        app:showAsAction="never"
+        android:title="Edit Profile"></item>
+    <item android:id="@+id/Feedback"
+        android:orderInCategory="30"
+        app:showAsAction="never"
+        android:title="Feedback"></item>
+    <item android:id="@+id/Help"
+        android:orderInCategory="30"
+        app:showAsAction="never"
+        android:title="About Electricity Board"></item>
+
+</menu>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:layout_margin="10dp"
+    tools:context="com.example.indrajeet.loginapp.ViewPaymentActivity">
+
+    <Spinner
+        android:id="@+id/spinnerMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/lightgray"
+        android:entries="@array/Months"
+        android:paddingLeft="18sp" />
+
+
+
+    <TextView
+        android:id="@+id/tvpId"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/spinnerMonth"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/lightgray"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:paddingLeft="18sp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvpname"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvpId"
+        android:layout_marginTop="10dp"
+        android:background="@color/lightgray"
+        android:paddingLeft="18sp"
+        android:text=""
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tvpaddress"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvpname"
+        android:layout_marginTop="10dp"
+        android:background="@color/lightgray"
+        android:paddingLeft="18sp"
+        android:text=""
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvpcname"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvpayment"
+        android:layout_marginTop="18dp"
+        android:background="@color/lightgray"
+        android:paddingLeft="18sp"
+        android:text=""
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tvpmonth"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bpView"
+        android:layout_marginTop="16dp"
+        android:background="@color/lightgray"
+        android:paddingLeft="18sp"
+        android:text=""
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvpayment"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tvpmonth"
+        android:layout_marginTop="10dp"
+        android:background="@color/lightgray"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:paddingLeft="18sp"
+        android:text="" />
+
+
+    <Button
+        android:id="@+id/bpView"
+        style="@android:style/Widget.Material.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvpaddress"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/ovalbackgroundyellow"
+        android:text="View payment-status" />
+
+</RelativeLayout>
+    <!--?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292d35"
+    tools:context="com.example.indrajeet.loginapp.ViewPaymentActivity">
+
+
+
+    <TextView
+        android:id="@+id/tvpId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerMonth"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#f49242"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:paddingLeft="18sp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvpname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvpId"
+        android:layout_marginTop="25dp"
+        android:background="#f49242"
+        android:paddingLeft="18sp"
+        android:text=""
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvpaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvpname"
+        android:layout_marginTop="16dp"
+        android:background="#f49242"
+        android:paddingLeft="18sp"
+        android:text=""
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvpcname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bpView"
+        android:background="#f49242"
+        android:paddingLeft="18sp"
+        android:text=""
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvpmonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvpcname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="#f49242"
+        android:paddingLeft="18sp"
+        android:text=""
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvpayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvpmonth"
+        android:layout_marginTop="28dp"
+        android:background="#f49242"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:paddingLeft="18sp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/bpView"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvpaddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="View payment-status" />
+
+</RelativeLayout-->

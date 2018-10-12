@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.indrajeet.loginapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Electricity BillingApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ElectricityBoardActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".MeterReadingActivity" />
+        <activity android:name=".AddMeterPaymentActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".ViewBillForAdminActivity" />
+        <activity android:name=".BillGenActivity" />
+        <activity android:name=".MeterForBillActivity" />
+        <activity android:name=".ViewBillActivity" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".ViewPaymentActivity" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".ViewFeedbackActivity" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".CustomerActivity" />
+    </application>
+
+</manifest>

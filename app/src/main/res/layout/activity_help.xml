@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgray"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="com.example.indrajeet.loginapp.HelpActivity">
+
+    <TextView
+        android:id="@+id/tvHelp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewslogan"
+        android:text="BESCOM – Bangalore Electricity Supply Company Limited is responsible for power distribution in Eight districts of Karnataka. BESCOM covers an area of 41,092 Sq. Kms. with a population of over 207 lakhs.
+            \nThe company has 3 operating Zones – Bangalore Metropolitan Area Zone, Bangalore Rural Area Zone and Chitradurga Zone, 9 Circles, 28 Divisions, 119 Sub-divisions and 453 Section Offices.\n\n
+
+            Unit charges as per ELECTRICITY BOARD\n
+            for 1st 100 units @ 1Rs.(any currency)/unit\n
+            for next 100 units @ 2 Rs./unit\n
+             for next 100 units @ 3 Rs./unit\n
+             for next 200 units @ 4 Rs./unit\n
+             for next units @ 5 Rs./unit\n
+             tax to be added in final amount @ 10%.\n
+             Meter charge 50 Rs. extra."
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/textViewslogan"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF"
+        android:background="#9e5d1c"
+        android:textStyle="italic"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="Save Electricity for your better tomorrow" />
+</RelativeLayout>

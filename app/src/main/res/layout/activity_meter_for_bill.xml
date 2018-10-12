@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_artist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgray"
+    android:layout_margin="10dp"
+    tools:context="com.example.indrajeet.loginapp.ViewBillForAdminActivity">
+
+    <TextView
+        android:id="@+id/textViewConsumer"
+
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:background="@color/materialYello"
+        android:text=""
+        android:paddingLeft="18sp"
+        android:textColor="#ffffff"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <!--TextView
+        android:id="@+id/textViewArtist"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:text=""
+        android:background="@color/materialYello"
+        android:paddingLeft="18sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold" /-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNameC">
+
+
+        <TextView
+            android:id="@+id/textViewRatingC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonAddTrackC"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editTextNameC"
+        android:layout_below="@+id/editTextNameC"
+        android:text="Create" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonAddTrackC"
+        android:background="@color/materialGreen"
+        android:paddingLeft="18sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="ID" />
+
+    <EditText
+        android:id="@+id/editTextNameC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spinnerGenresC"
+        android:ems="10"
+         android:layout_marginTop="10dp"
+        android:hint="Enter Meter Reading"
+        android:background="#ffffff"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:paddingLeft="18sp"
+        android:textColorHint="#0c0628"
+        android:inputType="textPersonName" />
+    <!--EditText
+        android:id="@+id/editTextTrackName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="75dp"
+
+        android:ems="10"
+        android:hint="Enter Meter Reading"
+        android:background="#ffffff"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:paddingLeft="18sp"
+        android:textColorHint="#0c0628"/-->
+
+    <!--Spinner
+        android:id="@+id/spinnerGenresC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewConsumer"
+        android:background="#f49242"
+        android:entries="@array/Months"
+        android:paddingLeft="18sp" /-->
+    <Spinner
+        android:id="@+id/spinnerGenresC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewConsumer"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:entries="@array/Months"
+        android:paddingLeft="18sp"
+        />
+
+
+    <ListView
+        android:id="@+id/listViewMeters"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="34dp"
+        android:background="#ffffff"
+        android:divider="@color/lightgray"
+        android:dividerHeight="10dp"/>
+
+
+</RelativeLayout>

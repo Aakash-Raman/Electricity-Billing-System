@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "772978279581",
+    "firebase_url": "https://loginapp-91058.firebaseio.com",
+    "project_id": "loginapp-91058",
+    "storage_bucket": "loginapp-91058.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772978279581:android:18a5c3b2d8d88d60",
+        "android_client_info": {
+          "package_name": "com.example.indrajeet.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772978279581-0c3fkd5kgtf3pdvm4tu2bfakp01f8rt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_3i82BrQPeZPgxPb4BOLUOYxBavaaOs8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

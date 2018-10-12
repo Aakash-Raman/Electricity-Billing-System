@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/lightgray"
+    tools:context="com.example.indrajeet.loginapp.BillGenActivity">
+
+
+    <EditText
+        android:id="@+id/editTextNameC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFCCCC"
+        android:hint="Enter name"
+        android:inputType="textPassword"
+        android:textColorHint="#202020" />
+
+
+    <Button
+        android:id="@+id/buttonAddConsumer"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNameC"
+        android:text="Add"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textViewC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAddConsumer"
+
+        android:text="Consumers"
+        android:background="@color/materialGreen"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <!--TextView
+        android:id="@+id/textViewC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAddConsumer"
+        android:text="Consumers"
+        android:background="#6242f4"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" /-->
+
+    <!--TextView
+        android:id="@+id/textView1C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewC"
+        android:background="#6242f4"
+        android:textColor="#ffffff"
+        android:text="Tap on a Consumer to generate Bill"
+        android:textSize="18sp"
+        android:textAlignment="center" /-->
+    <TextView
+        android:id="@+id/textView1C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@color/materialYello"
+        android:layout_below="@id/textViewC"
+        android:text="Tap on a consumer to generate Bill"
+        android:textAlignment="center"/>
+
+    <ListView
+        android:id="@+id/listViewConsumers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:divider="@color/lightgray"
+        android:background="#ffffff"
+        android:dividerHeight="10dp"
+        android:layout_below="@+id/textView1C"></ListView>
+
+</RelativeLayout>
